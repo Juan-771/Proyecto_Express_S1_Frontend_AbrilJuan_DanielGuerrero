@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://i.postimg.cc/xCqk4WTf/Chat-GPT-Image-24-sept-2025-10-35-27-a-m-removebg-preview.png"
+            class="logo">
+    </header>
+
+    <div class="block">
+        <h1>Sign In</h1>
+        <form onsubmit="login(event)">
+            <input type="text" id="email" placeholder="Email or phone number" required />
+            <input type="password" id="password" placeholder="Password" required />
+            <button type="submit">Sign In</button>
+            <p id="error" style="color:red; font-size:14px;"></p>
+        </form>
+
+        <p class="signup">
+            New to Real Films? <a href="#">Sign up now.</a>
+        </p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
